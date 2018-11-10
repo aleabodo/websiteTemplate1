@@ -48,6 +48,12 @@ class Presentation extends Component {
 
             Take a deeper look into 'src/styles/'. There you have all CSS files that style the website.
           </p>
+          <p className="text text-bright">
+            <b>Important: </b><br />
+            You will need to run this website on a server. Google Firebase Hosting has always been a good solution for me:<br />
+            <a target="_blank" href="https://firebase.google.com" /><br />
+            The reason is that react-router a server instance needs to push the history.
+          </p>
         </PresentationPageElement>
       </div>
     );
