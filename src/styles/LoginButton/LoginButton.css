@@ -1,0 +1,27 @@
+.LoginButton {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  height: 50px;
+  border: solid rgb(200, 200, 200) 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(200, 200, 200);
+  padding-left: 22px;
+  padding-top: 13px;
+  letter-spacing: 4px;
+  font-size: 15px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+  z-index: 1000;
+}
+
+.LoginButton:hover {
+  background-color: rgba(103, 103, 103, 0.55);
+}
+
+.LoginButton:active {
+  background-color: rgb(47, 47, 47);
+}

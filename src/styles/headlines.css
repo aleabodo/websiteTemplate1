@@ -1,0 +1,47 @@
+/*
+* Headlines
+*/
+.headline {
+  text-align: left !important;
+  width: 70%;
+  padding: 10px;
+  display: block;
+  z-index: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-left: 20px !important;
+}
+
+.headline-1 {
+  font-size: 1.7em;
+  letter-spacing: 5px;
+}
+
+.headline-2 {
+  font-size: 1.5em;
+}
+
+.headline-3 {
+  font-size: 1.3em;
+}
+
+.headline-4 {
+  font-size: 1.1em;
+}
+
+.headline-black {
+  background-color: black;
+}
+.headline-black::first-letter {
+  color: #E45F4D;
+  font-weight: bold;
+}
+
+.headline-bright {
+  color: rgb(228, 228, 228) !important;
+}
+
+.headline-dark {
+  color: rgb(45, 45, 45) !important;
+}

@@ -1,0 +1,88 @@
+/*
+* Fonts
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+body,html{
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: rgb(101, 152, 205);
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: rgb(38, 108, 181);
+}
+
+a:focus {
+  color: rgb(21, 55, 93);
+}
+
+
+/*
+* Fade in and Route
+* START ------------------------
+*/
+.fade {
+}
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.6s;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.fadeZoom {
+  transform: scale(1);
+}
+.fadeZoom-enter {
+  opacity: 0;
+  transform: scale(0.75);
+}
+.fadeZoom-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.6s, opacity 0.6s;
+}
+.fadeZoom-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.fadeZoom-exit-active {
+  opacity: 0;
+  transform: scale(1.2);
+  transition: transform 0.6s, opacity 0.6s;
+}
+/*
+* Fade in and Route
+* END --------------------------
+*/
+
+
+
+/*
+* Responsive
+*/
+@media (min-width: 700px) {
+
+}
